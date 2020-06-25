@@ -1,0 +1,9 @@
+@mixin button_primary($backgroud, $color, $border-color) {
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: $border-color;
+  color: $color;
+  padding: 10px 30px;
+  background-color: $backgroud;
+}
